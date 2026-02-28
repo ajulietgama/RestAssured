@@ -44,7 +44,7 @@ public class TestGetRest {
 
         );
 
-        Response response =
+        Response response = //Response variable type
                 given()
                         .log().all() // Logs request details
                         .contentType(ContentType.JSON)
